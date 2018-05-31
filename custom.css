@@ -1,0 +1,412 @@
+@font-face {
+font-family: "myFont";
+src: url("fonts/moon_get-Heavy.ttf");
+}
+
+@font-face {
+font-family: "beauty";
+src: url("fonts/Beauty and the Dutch.ttf");
+}
+
+.navbar-inverse{
+    background-color: #104f5d;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+#layer1{
+    height: 700px;
+    background-image: url(images/80054.png);
+    background-size:cover;
+}
+
+nav{
+    transition: all 0.3s ease;
+}
+
+.navbar-brand{
+    font-family: beauty;
+    font-size: 30px;
+    color: 34a5bb;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.navbar-nav li a{
+    font-size: 15px;
+    color: 34a5bb;
+}
+#layer1 h2{
+    margin-top: 100px;
+}
+
+#layer1 h1{
+    font-family: myFont;
+    font-size: 50px;
+    color: #104f5d;
+}
+
+#layer1 button{
+    margin: 10px;
+}
+
+.l2content1 h1, .l3content1 h1, .l4content1 h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: rgb(50,50,50);
+}
+
+.l2content1 h3, .l3content1 h3, .l4content1 h3{
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 60px;
+    color: gray;
+}
+
+.l2content2 i{
+    padding: 30px 0px;
+    width: 130px;
+    text-align: center;
+    background-color: orange;
+    font-size: 70px;
+    color: white;
+    border-radius: 50%;
+}
+
+.l2content2 h1,.l4content2 h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.l2content2 h4{
+    padding: 0px 20px;
+    height: 100px;
+}
+
+.l2content2{
+    padding: 50px 40px 80px 40px;
+    overflow: hidden;
+}
+
+
+
+#solar{
+    background-image: url(images/portfolio/2.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+#travel{
+    background-image: url(images/portfolio/3.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+#cards{
+    background-image: url(images/portfolio/4.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+#slide{
+    background-image: url(images/portfolio/5.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.pimg{
+    height: 330px;
+}
+
+.l3content2{
+    margin: 50px 0;
+    margin-bottom: 100px;
+    padding: 0px 50px;
+}
+
+.l3content2 h2{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 280px;
+    color: white;
+    font-weight: bold;
+    animation: out 0.5s forwards;
+}
+
+.l3content2 h2:hover{
+    animation: in 0.5s forwards;
+}
+
+@keyframes in{
+    0%{background-color: rgba(77, 166, 255,0);
+    border: 0px solid white;
+    padding-top: 280px;}
+    100%{background-color: rgba(77, 166, 255,0.8);
+    border: 25px solid white;
+    padding-top: 230px;}
+}
+
+@keyframes out{
+    100%{background-color: rgba(77, 166, 255,0);
+    border: 0px solid white;
+    padding-top: 280px;}
+    0%{background-color: rgba(77, 166, 255,0.8);
+    border: 25px solid white;
+    padding-top: 230px;}
+}
+
+.l4content2 img{
+    width: 15%;
+    border: 10px solid #e6e6e6;
+}
+
+.l4content2 h1{
+    text-align: right;
+    position: relative;
+    bottom: 200px;
+}
+
+.l4content2 h3{
+    text-align: right;
+    position: relative;
+    bottom: 200px;
+}
+
+.l4content2 .about-right{
+    text-align: left;
+}
+
+.vl {
+    margin-top: -220px;
+    margin-left: 50%;
+    border-left: 6px solid #e6e6e6;
+    height: 220px;
+}
+
+.l5content2{
+    padding: 0px 40px;
+    margin-bottom: 200px;
+    
+}
+
+.l5content2 img{
+    width: 200px;
+    border: 6px solid #e6e6e6;
+}
+
+.l5content2 h1{
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.l5content2 h3{
+    margin: 0;
+    padding: 0;
+}
+
+.l5content2 ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.l5content2 li{
+    display: inline-block;
+    font-size: 20px;
+    width: 35px;
+    background-color: rgb(50,50,50);;
+    margin:0px 8px;
+}
+
+.l5content2 li a{
+    color: orange;
+}
+
+.l5content2 li a:hover{
+    text-decoration: none;
+}
+
+.social-link{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#layer6{
+    margin: 0px;
+    background-color: #212529;
+    text-align: center;
+    background-image: url(images/map-image.png);
+}
+
+#layer6 form h1{
+    margin: 0;
+    padding-top: 50px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+#layer6 form hr{
+    width: 50%;
+}
+
+#layer6 form input{
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    height: 5%;
+    border-radius: 20px;
+}
+
+#layer6 form input:focus{
+    outline-width: 0px;
+}
+
+#submit{
+    background-color: #212529;
+    font-family: monospace;
+    color: white;
+}
+
+#footer{
+    margin: 50px 0px;
+    color: white;
+    font-family: sans-serif;
+    background-color: #212529;
+}
+
+#footer .fa{
+    font-size: 30px;
+    padding: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: white;
+}
+
+#footer .fa:hover{
+    background-color: darkslategray;
+}
+
+#footer .fa-facebook {
+    background: #212529;
+    color: white;
+}
+
+#footer .fa-twitter {
+    background: #212529;
+    color: white;
+}
+
+#footer .fa-google {
+    background: #212529;
+    color: white;
+}
+
+#footer .fa-linkedin {
+    background: #212529;
+    color: white;
+}
+
+#footer p{
+    font-size: 20px;
+}
+
+.hideme1,.hideme2,.hideme3{
+    position: relative;
+    opacity: 0;
+    top: 400px;
+    background-color: antiquewhite;
+    border: 10px solid white;
+    padding: 40px 0px;
+}
+
+@media screen
+    and (max-width : 768px){
+        #back-image{
+            display: none;
+        }
+        
+        #layer1{
+            background-image: url(images/80054.png);
+        }
+        
+        .navbar-nav{
+            float: left;
+        }
+        
+        .pimg{
+            height: 200px;
+            margin: 20px 0;
+        }
+        
+        .l3content2 h2{
+            padding-top: 150px;
+            animation: none;
+        }
+        
+        .l3content2 h2:hover{
+            animation: none;
+        }
+        
+        .l3content2{
+            margin: 0;
+            padding: 0px 50px;
+        }
+        
+        .l4content2{
+            text-align: left;
+        }
+        
+        .l4content2 img{
+            width: 100px;
+        }
+
+        .l4content2 h1{
+            margin-left: 110px;
+            text-align: right;
+            position: relative;
+            bottom: 100px;
+        }
+
+        .l4content2 h3{
+            margin-left: 110px;
+            text-align: right;
+            position: relative;
+            bottom: 100px;
+        }
+        
+        .l4content2 .about-right{
+            text-align: right;
+        }
+        
+        .vl{
+            display: none;
+        }
+        
+        .l5content2 img{
+            width: 200px;
+        }
+        
+        #layer6 form input{
+            width: 80%;
+        }
+        
+        
+}
