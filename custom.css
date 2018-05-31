@@ -97,29 +97,6 @@ nav{
 
 
 
-#solar{
-    background-image: url(images/portfolio/2.JPG);
-    background-size: cover;
-    background-position: center;
-}
-
-#travel{
-    background-image: url(images/portfolio/3.JPG);
-    background-size: cover;
-    background-position: center;
-}
-
-#cards{
-    background-image: url(images/portfolio/4.JPG);
-    background-size: cover;
-    background-position: center;
-}
-
-#slide{
-    background-image: url(images/portfolio/5.JPG);
-    background-size: cover;
-    background-position: center;
-}
 
 .pimg{
     height: 330px;
